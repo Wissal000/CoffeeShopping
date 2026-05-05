@@ -86,18 +86,6 @@ const AdminOrders = () => {
               Monitor, manage and update customer orders
             </p>
           </div>
-
-          {/* SEARCH */}
-          <div className="relative w-full md:w-[260px]">
-            <input
-              placeholder="Search orders..."
-              className="w-full pl-4 pr-4 py-2.5 rounded-lg 
-            bg-white/[0.04] border border-white/10 
-            text-sm placeholder:text-gray-500
-            focus:outline-none focus:border-yellow-400 focus:bg-white/[0.06]
-            transition"
-            />
-          </div>
         </div>
 
         {/* ===== STATS ===== */}

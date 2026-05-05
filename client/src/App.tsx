@@ -4,6 +4,7 @@ import AddProduct from "./pages/admin/AddProduct";
 import ProductLists from "./pages/Products";
 import AdminList from "./pages/admin/ProductsLists";
 import Order from "./pages/admin/orders";
+import Login from "./pages/admin/login";
 import AdminLayout from "./layout/adminLayout";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
@@ -22,7 +23,7 @@ function App() {
           <Route path="/products" element={<ProductLists />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
-
+          <Route path="/admin/login" element={<Login />} />
           <Route path="/admin" element={<AdminLayout />}>
             <Route index element={<AdminList />} />
             <Route path="products" element={<AdminList />} />
